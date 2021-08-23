@@ -26,7 +26,7 @@ body{
 }
 
 .caja:nth-child(2):hover{
-    background: purple;
+    background: blue;
     transform: rotate(2turn);
 }
 
@@ -36,6 +36,6 @@ body{
 }
 
 .caja:nth-child(4):hover{
-    background: purple;
+    background: green;
     transform: skewX(10deg);
 }
