@@ -21,7 +21,7 @@ body{
 }
 
 .caja:nth-child(1):hover{
-    background: purple;
+    background: rgb(7, 224, 170);
     transform: translate(50px, 50px);
 }
 
