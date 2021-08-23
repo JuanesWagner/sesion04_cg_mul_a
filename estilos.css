@@ -31,7 +31,7 @@ body{
 }
 
 .caja:nth-child(3):hover{
-    background: purple;
+    background: yellow;
     transform: scaleX(2);
 }
 
