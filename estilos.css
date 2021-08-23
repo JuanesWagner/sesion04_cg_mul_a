@@ -27,9 +27,8 @@ body{
 
 .caja:nth-child(2):hover{
     background: purple;
-    transform: rotate(50deg);
+    transform: rotate(2turn);
 }
-
 
 .caja:nth-child(3):hover{
     background: purple;
