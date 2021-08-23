@@ -37,16 +37,43 @@ body{
 }
 
 .triangulo{
-    width: 100; 
-    height: 100; 
+    margin: 150px 80px;
+    width: 0px; 
+    height: 0px; 
+    color: #000000;
+    text-align: center;
+    line-height: 10px;
+    font-size: 30px;
+    border-left: 120px solid crimson;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    transition: all 2s;
+}
+
+.rectangulo{
+    margin: 150px 15px;
+    width: 100px;
+    height: 150px;
     background: crimson;
-    border-left: 100px solid #f0ad4e;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
     color: #fff;
+    font-size: 40px;
     text-align: center;
     line-height: 150px;
     transition: all 2s;
+}
+
+.circulo {
+    margin: 150px 40px;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    -moz-border-radius: 70%;
+    -webkit-border-radius: 70%;
+    border-radius: 70%;
+    background: crimson;
 }
 
 .rombo:nth-child(1):hover{
@@ -61,18 +88,18 @@ body{
 }
 
 .triangulo:nth-child(2):hover{
-    background: blue;
-    border-top: 50px solid transparent;
-     border-bottom: 50px solid transparent;
+    border-left: 120px solid blue;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
     transform: rotate(2turn);
 }
 
-.caja:nth-child(3):hover{
+.rectangulo:nth-child(3):hover{
     background: yellow;
     transform: scaleX(2);
 }
 
-.caja:nth-child(4):hover{
+.circulo:nth-child(4):hover{
     background: green;
-    transform: skewX(10deg);
+    transform: skewX(40deg);
 }
