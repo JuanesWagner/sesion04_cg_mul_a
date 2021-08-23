@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background: #ddd;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    margin: 150px 15px;
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    transition: all 2s;
+}
+
+.rombo{
+    margin: 150px 15px;
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    -ms-transform: rotate(45deg) skew(15deg, 15deg);
+    -o-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg);
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    transition: all 2s;
+}
+
+.triangulo{
+    width: 100; 
+    height: 100; 
+    background: crimson;
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    transition: all 2s;
+}
+
+.rombo:nth-child(1):hover{
+    background: rgb(7, 224, 170);
+    
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    -ms-transform: rotate(45deg) skew(15deg, 15deg);
+    -o-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg) translate(50px, 50px);;
+    
+}
+
+.triangulo:nth-child(2):hover{
+    background: blue;
+    border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent;
+    transform: rotate(2turn);
+}
+
+.caja:nth-child(3):hover{
+    background: yellow;
+    transform: scaleX(2);
+}
+
+.caja:nth-child(4):hover{
+    background: green;
+    transform: skewX(10deg);
+}
